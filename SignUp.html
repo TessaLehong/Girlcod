@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="green-logo.png" alt="Eco-Smart Logo" class="logo">
+            <img src="landing-page.png" alt="Illustration" class="illustration">
+        </div>
+        <div class="right">
+            <h1>Registration</h1>
+            <form id="registrationForm">
+                <div class="input-group">
+                    <input type="text" id="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" placeholder="Last Name">
+                </div>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <input type="password" id="confirmPassword" placeholder="Re-enter password">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I've read and agree with Terms of Service and our Privacy Policy</label>
+                </div>
+                <button type="button" onclick="register()">Register</button>
+                <div class="social-login">
+                    <p>OR</p>
+                    <button type="button" class="google">Sign-up with Google</button>
+                    <button type="button" class="facebook">Sign-up with Facebook</button>
+                </div>
+                <p>Already have an account? <a href="#">Sign in</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
